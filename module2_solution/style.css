@@ -1,0 +1,96 @@
+h1{
+    text-align: center;
+}
+
+section h4{
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    bottom: 22px;
+    left: 1px;
+    margin-left:70%;
+}
+
+section{
+    border: 1px solid black ;
+    background-color: lightgray;
+    height:5%;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+   
+    
+}
+
+section p{
+    
+    margin-left: 19px;
+    margin-right: 15px;
+    margin-bottom: -20px;
+    position: relative;
+    bottom: 26px;
+}   
+
+.sec1_title{
+    background-color:pink;
+}
+.sec2_title{
+    background-color:red;
+}
+
+.sec3_title{
+    background-color:yellow;
+}
+@media (max-width: 767px ){
+    .sec1{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .sec2{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .sec3{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+}
+@media (min-width: 768px ) and (max-width:991px){
+   
+    .sec1{
+        width: 47%;
+        float: left;
+        margin-left: 2%;
+        margin-right: 6px;
+    }
+    .sec2{
+        width: 47%;
+        margin-left: 8px;
+        float: left;
+    }
+    .sec3{
+        width: 96%;
+        margin-left: 2%;
+        clear: left
+        
+    }
+    .sec3_title{
+        margin-left:85%;
+    }
+    
+    
+}
+@media (min-width: 992px ){
+   
+    section{
+        width: 30%;
+       
+        float: left;
+    }
+
+    .sec1{
+        margin-left: 3%;
+    }
+}
