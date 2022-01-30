@@ -1,0 +1,20 @@
+.fondo{
+    background-color: rgb(206, 215, 241);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.marg{
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.top{
+    border-top: 1px solid black;
+}
+.menu{
+    background-color: rgb(183, 241, 165);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
